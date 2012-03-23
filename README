@@ -1,0 +1,7 @@
+Plymouth themes for squibby Linux
+=================================
+
+Plymouth is the system that handles console input and output during early boot
+(i.e., from the time kernel takes over from bootloader until the X server starts).
+
+This package contains the Squibby Linux themes for plymouth.
