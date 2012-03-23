@@ -1,0 +1,34 @@
+Source: squibby-plymouth-themes
+Section: x11
+Priority: optional
+Maintainer: Pantelis Koukousoulas <pktoss@gmail.com>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.3
+Vcs-Git: 
+Vcs-Browser: 
+
+Package: plymouth-theme-squibby-logo
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-label
+Replaces: squibby-plymouth-theme
+Provides: plymouth-theme
+Description: graphical boot animation and logger - squibby-logo theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default squibby-logo theme.
+
+Package: plymouth-theme-squibby-text
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-theme-ubuntu-text
+Provides: plymouth-theme
+Description: graphical boot animation and logger - squibby-text theme
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the default squibby-text theme used when no support for
+ a graphical theme is found on your system.
+ .
+ This package contains the default squibby-text theme.
